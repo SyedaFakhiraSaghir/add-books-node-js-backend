@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK MANAGEMENT</title>
+    <link rel=stylesheet href="/lab6.css">
+</head>
+<body>
+  <div class='background'>
+    <form action="/add-book" method="POST">
+      <div class='contact-left-title'>
+        <h2>BOOK MANAGEMENT</h2>
+        <hr>
+      </div>
+        <label for="isbn">ISBN</label>
+        <p></p>
+        <input type="text" id="isbn" name="isbn" required><br><br>
+        <label for="title">TITLE</label>
+        <p></p>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="author_name">AUTHOR NAME</label>
+        <p></p>
+        <input type="text" id="author_name" name="author" required><br><br>
+        <button class='btn' type="submit">ADD BOOK</button>
+      </form>
+  </div>
+</body>
+</html>
